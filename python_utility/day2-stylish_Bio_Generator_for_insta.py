@@ -11,7 +11,7 @@ print("1. Simple and Elegant")
 print("2. Vertical Flair")
 print("3. Emoji Sandwich")
 
-style = input("Enter the 1, 2, or 3: ").strip()
+style = input("Enter the 1, 2, 3: ").strip()
 def generate_bio(style):
  if style == "1":
     return f"{name} | {passion} {emoji} | {website}"
