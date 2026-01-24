@@ -24,4 +24,5 @@ while True:
             print("Goodbye!")
             break
     except ValueError:
-        print("Invalid input. Please enter a nvalid number for age.")
+        print("Invalid input. Please enter a valid number for age.")
+        
