@@ -25,7 +25,7 @@ for word in message.split():
     else:
         updated_message.append(word)
 
-updated_word = "".join(updated_message)
+updated_word = " ".join(updated_message)
         
 print("\n Enhanced_message \n")
 print(updated_word)
