@@ -11,7 +11,7 @@ if rating:
     journal_entry += f"\n Productivity Rating: {rating} \n"
     journal_entry += "\n" + "-" * 50
 
-with open("lerning_journal.txt", "a", encoding ="utf-8") as f:
+with open("learning_journal.txt", "a", encoding ="utf-8") as f:
     f.write(journal_entry)
 
 print(f"\n your journal entry has been saved to 'learning_journal.txt' file. ")
