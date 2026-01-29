@@ -8,14 +8,14 @@ def load_tasks():
      with open(TASK_FILE, 'r', encoding = 'utf-8') as f:
        for line in f:
            text, status = line.strip().rsplit("||", 1)
-           tasks.append = ({"text": text, "done": status == "done"})
+           tasks.append({"text": text, "done": status == "done"})
     return tasks
 
 def save_tasks(tasks):
      with open(TASK_FILE, "w", encoding = 'utf-8') as f:
        for task in tasks:
            status = "done" if task["done"] else "not_done"
-           f.write(f"{task['text']} || {status} \n")
+           f.write(f"{task['text']}||{status} \n")
     
 
 def display_tasks(tasks):
