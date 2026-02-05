@@ -1,3 +1,6 @@
+#This is day 6
+#Daily learning journal logger
+
 import datetime
 
 entry = input("What did you learn today? ").strip()

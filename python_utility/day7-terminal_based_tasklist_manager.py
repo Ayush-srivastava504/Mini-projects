@@ -1,3 +1,6 @@
+#This is day 7
+#Terminal based tasklist manager
+
 import os
 
 TASK_FILE = "tasks.txt"
